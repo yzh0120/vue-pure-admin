@@ -1,6 +1,6 @@
 import { getPluginsList } from "./build/plugins.ts";
 import { include, exclude } from "./build/optimize.ts";
-import { type UserConfigExport, type ConfigEnv, loadEnv } from "vite"; //
+import { type UserConfigExport, type ConfigEnv, loadEnv } from "vite"; ////
 import {
   root,
   alias,
