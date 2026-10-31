@@ -20,3 +20,10 @@ tests/**/coverage/
 *.njsproj
 *.sln
 tsconfig.tsbuildinfo
+
+# 本机私有：AI 知识库与过程产物（privgit 管理，不上云）
+AGENTS.md
+AGENTS.md.bak-*
+.zcode/
+# docs 目录本机私有，全部不进版本库（2026-10-21 用户要求）
+/docs/

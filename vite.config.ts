@@ -23,6 +23,8 @@ export default async ({ mode }: ConfigEnv): Promise<UserConfigExport> => {
       // 端口号
       port: VITE_PORT,
       host: "0.0.0.0",
+      // 启动后自动打开浏览器
+      open: true,
       // 本地跨域代理 https://cn.vitejs.dev/config/server-options.html#server-proxy
       proxy: {},
       // 预热文件以提前转换和缓存结果，降低启动期间的初始页面加载时长并防止转换瀑布
